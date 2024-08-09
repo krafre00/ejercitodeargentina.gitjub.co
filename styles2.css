@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.ejercito.mil.ar/descargas/paquetes/wallpapers/wp9.jpg');
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.welcome-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+.welcome-container h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.welcome-container p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.welcome-container a {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.welcome-container a:hover {
+    text-decoration: underline;
+}
+
+.rankings, .divisions {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.rankings h2, .divisions h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rankings ul, .divisions ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.rankings ul li, .divisions ul li {
+    margin: 5px 0;
+}
